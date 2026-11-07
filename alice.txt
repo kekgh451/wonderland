@@ -1,0 +1,159 @@
+
+    body {
+      background: url('https://raw.githack.com/kekgh451/wonderland/7bcb7ad3c78a0ad53db26430f20cc07db2516a03/bg.jpg') repeat-y top center;
+      height: 4600px;
+    }
+
+    div#parallax-bg-1 {
+      position: fixed;
+      width: 1200px;
+      top: 0;
+      left: 50%;
+      margin-left: -600px;
+      z-index: 1;
+    }
+    div#parallax-bg-2 {
+      position: fixed;
+      width: 1200px;
+      top: 0;
+      left: 50%;
+      margin-left: -600px;
+      z-index: 2;
+    }
+    div#parallax-bg-3 {
+      position: fixed;
+      width: 960px;
+      top: 0;
+      left: 50%;
+      margin-left: -470px;
+      z-index: 3;
+    }
+    div#parallax-bg-3 div {
+      background-repeat: no-repeat;
+      position: absolute;
+      display: block;
+      overflow: hidden;
+    }
+
+   
+    div#bg-3-1 {
+      background: url('https://raw.githack.com/kekgh451/wonderland/3820c13f59a384fa2b209db02350cd9d3094e79d/mirror.png');
+      width: 529px;
+      height: 757px;
+      top: -100px;
+      right: 100px;
+    }
+    div#bg-3-2 {
+      background: url('https://raw.githack.com/kekgh451/wonderland/3820c13f59a384fa2b209db02350cd9d3094e79d/photo.png');
+      background-size: contain;
+      width: 603px;
+      height: 583px;
+      top: 1050px;
+      right: 70px;
+    }
+    div#bg-3-3 {
+      background: url('https://raw.githack.com/kekgh451/wonderland/3820c13f59a384fa2b209db02350cd9d3094e79d/clock.png');
+      background-size: contain;
+      width: 846px;
+      height: 713px;
+      top: 1800px;
+      right: 140px;
+    }
+    div#bg-3-4 {
+      background: url('https://raw.githack.com/kekgh451/wonderland/3820c13f59a384fa2b209db02350cd9d3094e79d/abbit.png');
+      background-size: contain;
+      width: 1104px;
+      height: 684px;
+      top: 2800px;
+      right: 0px;
+    }
+
+
+    div#parallax-bg-2 div {
+      background: url('https://raw.githack.com/kekgh451/wonderland/3820c13f59a384fa2b209db02350cd9d3094e79d/cat.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      display: block;
+      width: 488px;
+      height: 438px;
+      overflow: hidden;
+    }
+    div#bg-2-1 { top: 100px; left: -310px; }
+    div#bg-2-2 { top: 270px; right: -70px; }
+    div#bg-2-3 { top: 870px; left: -300px; }
+    div#bg-2-4 { top: 1120px; right: -130px; }
+    div#bg-2-5 { top: 1620px; left: 140px; }
+    div#bg-2-6 { top: 720px; left: 340px; }
+11111111111111111111111111111111111111111111111111111111111111
+    div#parallax-bg-1 div {
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      display: block;
+      width: 488px;
+      height: 538px;
+      overflow: hidden;
+    }
+
+    div#bg-1-1 {
+      background: url('https://raw.githack.com/kekgh451/wonderland/3820c13f59a384fa2b209db02350cd9d3094e79d/clock.png');
+      top: 200px;
+      right: 250px;
+    }
+    div#bg-1-2 {
+      background: url('https://raw.githack.com/kekgh451/wonderland/3820c13f59a384fa2b209db02350cd9d3094e79d/abbit.png');
+      top: 420px;
+      left: 0px;
+    }
+    div#bg-1-3 {
+      background: url('https://raw.githack.com/kekgh451/wonderland/3820c13f59a384fa2b209db02350cd9d3094e79d/tea.png');
+      top: 850px;
+      right: -290px;
+    }
+    div#bg-1-4 {
+      background: url('https://raw.githack.com/kekgh451/wonderland/e508d17cb0087689ee4974ce1ced82af77fc5731/time.png');
+      top: 1350px;
+      left: 200px;
+    }
+    div#bg-1-5 {
+      background: url('https://raw.githack.com/kekgh451/wonderland/3820c13f59a384fa2b209db02350cd9d3094e79d/cat.png');
+      top: 1200px;
+      left: -200px;
+    }
+
+
+
+    .alice {
+      position: fixed;
+      top: 0;
+      left: 50%;
+   
+      animation: alice 18s infinite linear;
+    }
+    @keyframes alice {
+      0%   { transform: translateY(-80px); }
+      100% { transform: translateY(410vh); }
+    }
+
+    .cookie {
+      position: fixed;
+      top: 0;
+      left: 20%;
+      animation: cookie 7s infinite linear;
+    }
+    @keyframes cookie {
+      0%   { transform: translateY(-80px); }
+      100% { transform: translateY(410vh); }
+    }
+
+    .paper {
+      position: fixed;
+      top: 0;
+      left: 75%;
+      animation: paper 9s infinite linear;
+    }
+    @keyframes paper-fall {
+      0%   { transform: translateY(-80px); }
+      100% { transform: translateY(410vh); }
+    }
